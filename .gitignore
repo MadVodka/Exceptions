@@ -1,0 +1,8 @@
+### Java
+*.class
+
+### IDEA
+.idea/*
+.idea/
+
+*.iml
