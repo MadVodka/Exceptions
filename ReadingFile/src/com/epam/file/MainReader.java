@@ -43,7 +43,7 @@ public class MainReader {
      */
     public static void readFile() throws MyReaderException {
         //Открываем потоки на чтение из файла
-        String fileName = "ReadingFile/file.txt";
+        String fileName = "file.txt";
         try (FileReader reader = new FileReader(fileName)) {
             BufferedReader byfReader = new BufferedReader(reader);
 
